@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.searchBar {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.searchBar input {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  min-width: 50%;
+  min-height: 1rem;
+  padding:15px 10px;
+  border:none;
+  background-image:none;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  border-radius: 10px 0 0 10px;
+  transition:  .2s ease-out; 
+  margin: 3rem auto 5rem auto;
+}
+
+.searchBar input:focus {
+  transform: scale(1.1);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.searchBar input:focus + button{
+  transform: scale(1.1);
+}
+
+.searchBar button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: white;
+    padding:15px 10px;
+    min-height: 1rem;
+    border-radius: 0 10px 10px 0;
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    cursor: pointer;
+    border:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    transition:  .3s ease-out;
+}
+
+.recipesContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.recipe {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  margin: 1rem;
+  transition: transform .2s ease-out;
+  cursor: pointer;
+}
+
+.recipe:hover {
+  transition: transform .2s ease-out;
+  transform: scale(1.1);
+}
+
+.recipe p {
+  font-weight: 600;
+}
+
+
