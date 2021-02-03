@@ -100,18 +100,18 @@
   transform: scale(1.1);
 }
 
-@media screen and (max-width: 500px) {
+img {
+  border-radius: 100%;
+}
+
+@media screen and (max-width: 700px) {
   .searchBar{
     margin-top: 3rem;
-    transform: scale(2);
-  }
-
-  .singleRecipe, .closeBtn {
-    transform: scale(1.5);
+    min-width: 100%;
   }
 
   .singleRecipe {
-    margin-top: 20rem;
+    min-width: 80%;
   }
 }
 
