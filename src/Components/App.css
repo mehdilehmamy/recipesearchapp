@@ -100,7 +100,7 @@
   transform: scale(1.1);
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 500px) {
   .searchBar{
     margin-top: 3rem;
     transform: scale(2);
