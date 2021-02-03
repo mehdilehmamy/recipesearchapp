@@ -62,7 +62,7 @@ function App() {
           <CloseIcon className="closeBtn" onClick={()=> {setExpand(false);}}/>
           <h2>{ingredients.name}</h2>
           {ingredients.ingredient.map((element) => {
-            return <p>{element}</p>
+            return <p key={Math.random()}>{element}</p>
           })}
           <img src={ingredients.image} alt="recipe"/>
       </div>
