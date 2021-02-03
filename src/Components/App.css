@@ -76,8 +76,28 @@
   transform: scale(1.1);
 }
 
-.recipe p {
-  font-weight: 600;
+.singleRecipe {
+  position: relative;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 1rem;
+  margin: 0 1rem 1rem 1rem;
+  min-width: 50%;
+}
+
+.closeBtn {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  cursor: pointer;
+  transition: all .2s ease-out;
+}
+
+.closeBtn:hover {
+  color: black;
+  transition: all .2s ease-out;
+  transform: scale(1.1);
 }
 
 

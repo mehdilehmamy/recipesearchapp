@@ -9,7 +9,7 @@ export default function Recipe (props) {
 
     return (
         <div className="recipe" onClick={handleClick}>
-            <p>{props.name}</p>
+            <h3>{props.name}</h3>
             <img src={props.image} alt="recipe"/>
         </div>
     );
